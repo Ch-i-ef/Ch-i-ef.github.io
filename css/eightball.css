@@ -1,0 +1,21 @@
+body {
+    background: rgb(24,195,230);
+    background: linear-gradient(0deg, rgba(24,195,230,1) 5%, rgba(24,230,182,0.5385504543614321) 50%, rgba(10,39,61,0.4937325271905637) 95%);
+    font-family: "Audiowide", sans-serif;
+    min-height: 100vh;
+}
+
+label {
+    padding: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    height: 500px;
+    width: auto;
+}

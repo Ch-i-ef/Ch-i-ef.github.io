@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8ball_Project</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="/css/eightball.css">
+</head>
+<body>
+    
+    <div class="title">
+        <h2>Dan's Magic 8Ball</h2>
+    </div>
+
+    <div class="label-input">
+        <label 
+        id="question-label" 
+        for="question-field"> What would you like to know?
+        </label>
+        <input 
+        id="question-field" 
+        type="text"
+        placeholder="Place your question here...">
+        </input>
+    </div>
+
+
+    <div class="button-container">
+        <button id="button">
+            Click here to find out!
+        </button>
+    </div>
+
+
+    <div id="question-container"></div>
+
+
+    <!-- <p id="answer"></p> -->
+
+    <div id="answer" class="eightball">
+        <img src="../public/magic8ball_extra.png" alt="8ball_extra" class="start" id="answer-image">
+    </div>
+
+
+    <script src="../script/eightball.js" defer></script>
+
+
+</body>
+</html>
